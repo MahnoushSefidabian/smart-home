@@ -103,16 +103,4 @@ POST /control
 - Implement **User Authentication**.  
 - Add **Mobile App** (React Native).  
 
-## License  
-This project is **open-source** and available under the **MIT License**.  
 
-Contributions are welcome! If you find bugs or have improvements, feel free to **submit a pull request**.  
-
----
-
-After saving `README.md`, run the following commands to push it to GitHub:  
-```bash
-git add README.md
-git commit -m "Added README file"
-git push origin main
-```
