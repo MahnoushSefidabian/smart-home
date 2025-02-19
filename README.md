@@ -121,7 +121,7 @@ POST /control
 ### Backend Errors?  
 - Run `npm install` in the **server folder**.  
 - Check if **port 5050** is available.  
-![Uploading image.png…]()
+
 
 
 
