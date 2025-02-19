@@ -60,15 +60,20 @@ npm start
 
 ## Project Structure
 ```
-smart-home-system/
-│── smart-home-backend/          # Backend server (Node.js & Express)
-│   ├── server.js     # Main server file
-│   ├── sensorData.json  # Data storage
-│── smart-home-frontend/         # Frontend app (React.js)
-│   ├── src/
-│   │   ├── App.js    # Main React component
-│   │   ├── App.css   # Styling
-│── README.md         # Documentation
+📁 smart-home-system
+ ├── 📁 smart-home-backend
+ │   ├── server.js
+ │   ├── sensorData.json
+ │   ├── package.json
+ │
+ ├── 📁 smart-home-frontend
+ │   ├── src
+ │   │   ├── App.js
+ │   │   ├── App.css
+ │   ├── public
+ │   ├── package.json
+ │
+ ├── README.md
 ```
 
 
