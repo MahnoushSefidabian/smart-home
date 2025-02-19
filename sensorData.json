@@ -1,0 +1,8 @@
+{
+  "temperature": 21,
+  "irSensor": 0,
+  "lightSensor": 150,
+  "heater": 1,
+  "buzzer": 0,
+  "light": 0
+}
