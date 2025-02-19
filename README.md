@@ -20,39 +20,58 @@ Control and monitor **lights, heater, and security alarms** remotely with real-t
 
 ## Installation & Setup  
 
-### 1. Clone the Repository  
-```bash
-git clone https://github.com/YOUR_USERNAME/smart-home.git
-cd smart-home
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/smart-home-system.git
+   cd smart-home-system
+   ```
 
-### 2. Install Dependencies  
+2. **Install dependencies for backend:**
+   ```bash
+   cd smart-home-backend
+   npm install
+   ```
 
-#### Backend (Node.js Server)  
-```bash
-cd server
-npm install
-```
+3. **Install dependencies for frontend:**
+   ```bash
+   cd ../smart-home-frontend
+   npm install
+   ```
 
-#### Frontend (React App)  
-```bash
-cd ../client
-npm install
-```
+## Running the Project
 
-### 3. Run the Project  
-#### Start the Backend  
+### Start Backend Server
 ```bash
-cd server
+cd smart-home-backend
 node server.js
 ```
-The server should start on **port 5050**.
 
-#### Start the Frontend  
+### Start Frontend
 ```bash
-cd ../client
+cd smart-home-frontend
 npm start
 ```
+
+## API Endpoints
+
+- `GET /sensor` → Fetch sensor data
+- `POST /control` → Control devices (Light, Heater, Buzzer)
+- `POST /save` → Save sensor values
+
+## Project Structure
+```
+smart-home-system/
+│── smart-home-backend/          # Backend server (Node.js & Express)
+│   ├── server.js     # Main server file
+│   ├── sensorData.json  # Data storage
+│── smart-home-frontend/         # Frontend app (React.js)
+│   ├── src/
+│   │   ├── App.js    # Main React component
+│   │   ├── App.css   # Styling
+│── README.md         # Documentation
+```
+
+
 The React app should open at **`http://localhost:3000`**.
 
 ## API Endpoints  
