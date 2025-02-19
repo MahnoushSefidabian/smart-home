@@ -1,5 +1,5 @@
 
-# Smart Home System  
+# smart home dashboard Website  
 
 A real-time **Smart Home System** using **Node.js, Express, Socket.io, and React**.  
 Control and monitor **lights, heater, and security alarms** remotely with real-time updates.  
