@@ -51,7 +51,8 @@ const App = () => {
         {/* شدت نور */}
         <div className="card">
           <h2 className="card-title">🌞 شدت نور</h2>
-          
+          <div className="card-content"></div>
+  
           <p className={`status ${sensorData.light === 1 ? "on" : "off"}`}>
             {sensorData.light === 1 ? "💡 چراغ روشن است" : "🌙 چراغ خاموش است"}
           </p>
