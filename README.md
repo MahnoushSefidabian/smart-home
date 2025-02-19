@@ -98,9 +98,5 @@ POST /control
 - Run `npm install` in the **server folder**.  
 - Check if **port 5050** is available.  
 
-## Future Improvements  
-- Add **Database (MongoDB or Firebase)** instead of JSON file.  
-- Implement **User Authentication**.  
-- Add **Mobile App** (React Native).  
 
 
