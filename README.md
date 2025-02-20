@@ -73,13 +73,13 @@ npm start
 
 The React app should open at **`http://localhost:3000`**.
 
-###API Endpoints
+### API Endpoints
 
 Get Sensor Status
 
 GET /status
 
-###Response:
+### Response:
 
 {
   "temperature": 25,
@@ -88,7 +88,7 @@ GET /status
   "buzzer": 0
 }
 
-###Control Devices
+### Control Devices
 
 POST /control
 
