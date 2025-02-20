@@ -52,12 +52,6 @@ cd smart-home-frontend
 npm start
 ```
 
-## API Endpoints
-
-- `GET /sensor` → Fetch sensor data
-- `POST /control` → Control devices (Light, Heater, Buzzer)
-- `POST /save` → Save sensor values
-
 ## Project Structure
 ```
 📁 smart-home-system
@@ -79,20 +73,33 @@ npm start
 
 The React app should open at **`http://localhost:3000`**.
 
-## API Endpoints  
+API Endpoints
 
-### Get Sensor Data  
-```http
-GET /sensor
-```
-#### Response:
-```json
+Get Sensor Status
+
+GET /status
+
+Response:
+
 {
   "temperature": 25,
-  "light": 1,
+  "heater": 0,
+  "light": 0,
   "buzzer": 0
 }
-```
+
+Control Devices
+
+POST /control
+
+Request Body Example:
+
+{
+  "light": 1,
+  "buzzer": 0,
+  "heater": 1,
+  "temperature": 22
+}
 
 ### Control Devices (Turn On/Off)  
 ```http
